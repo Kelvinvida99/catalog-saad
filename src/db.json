@@ -1,0 +1,556 @@
+{
+  "products": [
+    {
+      "id": "p001",
+      "name": "AMOXICILINA 500 MG",
+      "description": "La amoxicilina es un antibiótico penicilínico utilizado para tratar infecciones bacterianas causadas por microorganismos sensibles. Se presenta en comprimidos de 500 mg.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Amoxicilina-500_pg5prl.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p002",
+      "name": "ACETAMINOFEN 500MG",
+      "description": "El Acetaminofén es un medicamento analgésico y antipirético utilizado para tratar dolores leves o moderados y reducir la fiebre. Cada tableta contiene 500mg de Acetaminofén.",
+      "category": "Analgésicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Acetaminofen_hu9rsg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p003",
+      "name": "ACEITE DE BACALAO",
+      "description": "El Aceite de Bacalao es un suplemento alimenticio rico en ácidos grasos Omega 3, vitamina A y vitamina D. Se utiliza para promover la salud cardiovascular y ósea, así como para mejorar la función cognitiva.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965981/Saflox-100-perlas_effx1h.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p004",
+      "name": "ACEITE DE HIG. BACALAO",
+      "description": "El Aceite de Hígado de Bacalao es una fuente natural de ácidos grasos Omega 3, vitamina A y vitamina D. Se utiliza para promover la salud cardiovascular y ósea, así como para mejorar la función cognitiva y la salud ocular.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965980/Saflox-500-perlas_ptsvr7.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p005",
+      "name": "ACEITE DE HIG. DE BACALAO",
+      "description": "El Aceite de Hígado de Bacalao es una fuente natural de ácidos grasos Omega 3, vitamina A y vitamina D. Se utiliza para promover la salud cardiovascular y ósea, así como para mejorar la función cognitiva y la salud ocular.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750972732/Saflox-1000_1_ooj9xw.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p006",
+      "name": "ACEITE DE HIGADO DE BACALAO EMULSION",
+      "description": "El Aceite de Hígado de Bacalao Emulsión es una fuente natural de ácidos grasos Omega 3, vitamina A y vitamina D. La emulsión permite una mejor absorción y es fácil de administrar.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965982/Saflox-Emulsion_pw8y3h.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p007",
+      "name": "ACICLOVIR CREMA 15gr",
+      "description": "La Crema de Aciclovir se utiliza para tratar el herpes labial y genital. El Aciclovir es un antiviral que actúa impidiendo la multiplicación del virus y disminuyendo los síntomas.",
+      "category": "Antivirales",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965975/Aciclovir-crema_daxky8.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p008",
+      "name": "ACIDO FOLICO TAB. 5MG",
+      "description": "El Ácido Fólico es una vitamina del complejo B que se utiliza para prevenir defectos del tubo neural en el feto durante el embarazo. También se utiliza para tratar la anemia y para mejorar la salud del corazón y del cerebro.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Acido-Folico_y0nare.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p009",
+      "name": "ALBENDAZOL SUSPENSIÓN",
+      "description": "El Albendazol es un antiparasitario utilizado para tratar infecciones parasitarias en el intestino y en otros tejidos del cuerpo. La suspensión es fácil de administrar, especialmente para los niños.",
+      "category": "Antiparasitarios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Albendazole_gok8ae.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p010",
+      "name": "AMBROXOL JARABE 120ML",
+      "description": "El Ambroxol es un medicamento mucolítico que se utiliza para tratar la tos y la congestión en enfermedades respiratorias como la gripe y la bronquitis. El jarabe de 120ml es fácil de administrar.",
+      "category": "Mucolíticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965974/Ambroxol-Jarabe_a1cc1p.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p011",
+      "name": "ALBENDAZOL TABLETA 400MG",
+      "description": "El Albendazol es un antiparasitario utilizado para tratar infecciones parasitarias en el intestino y en otros tejidos del cuerpo. Cada tableta contiene 400mg de Albendazol.",
+      "category": "Antiparasitarios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Albendazol-400mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p012",
+      "name": "AMOXICILINA 1000 MG",
+      "description": "La Amoxicilina es un antibiótico utilizado para tratar infecciones bacterianas en el cuerpo, como la otitis, la neumonía, la faringitis, la bronquitis, la amigdalitis, la sinusitis y la infección urinaria.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Amoxicilina-100-mg_kygksb.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p013",
+      "name": "AMOXICILINA SUSP. 250MG",
+      "description": "La Amoxicilina es un antibiótico para tratar infecciones bacterianas. Esta presentación en suspensión de 250mg está especialmente indicada para su uso en niños y personas que tienen dificultades para tragar tabletas.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Amoxicilina_gzhpeq.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p014",
+      "name": "AMOXICILINA TAB. 500MG",
+      "description": "La Amoxicilina es un antibiótico utilizado para tratar infecciones bacterianas como la neumonía, la bronquitis y la infección del tracto urinario. Esta presentación en tabletas de 500mg es una dosis comúnmente utilizada para adultos.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Amoxicilina-500_pg5prl.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p015",
+      "name": "AMPICILINA 1000MG",
+      "description": "La Ampicilina es un antibiótico utilizado para tratar infecciones bacterianas como la neumonía, la meningitis y la infección del tracto urinario. Dosis de 1000mg para adultos y adolescentes.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965974/Ampicilina_qif8qh.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p016",
+      "name": "AMPICILINA SODICA INY",
+      "description": "La Ampicilina es un antibiótico para tratar infecciones bacterianas graves. Esta presentación en inyección es comúnmente utilizada en hospitales y clínicas para administración intravenosa.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Ampicilina-Inyectable.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p017",
+      "name": "AMPICILINA TAB. 500MG",
+      "description": "La Ampicilina es un antibiótico para tratar infecciones bacterianas como la neumonía y la meningitis. Esta presentación en tabletas de 500mg es una dosis comúnmente utilizada para adultos y adolescentes.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965978/Ampicilina-500_uj7yxr.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p018",
+      "name": "ATENOLOL 50MG",
+      "description": "El Atenolol es un medicamento utilizado para tratar la hipertensión arterial y otras afecciones cardíacas. Esta presentación en tabletas de 50mg es una dosis comúnmente utilizada.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965974/Atenol-50_lhqxzp.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p019",
+      "name": "ATENOLOL DE 100MG",
+      "description": "El Atenolol es un medicamento utilizado para tratar la hipertensión arterial y otras afecciones cardíacas. Esta presentación en tabletas de 100mg es una dosis comúnmente utilizada.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965979/Atenol-100_ny0o32.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p020",
+      "name": "AZITROMICINA 500MG",
+      "description": "La Azitromicina es un antibiótico utilizado para tratar infecciones bacterianas como la neumonía, la bronquitis y la infección del tracto urinario. Esta presentación de 500mg se usa para tratar una amplia gama de infecciones.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965974/Azitromizina_y9knje.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p021",
+      "name": "CALCIO CARBONATO+VIT D3",
+      "description": "Fortalece tus huesos con Calcio y Vitamina D3. Se usa para tratar y prevenir la deficiencia de calcio y vitamina D, ayudando a mantener huesos y dientes saludables y a la absorción de calcio.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965978/Calcio-carbonato-_-D3_h9xypi.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p022",
+      "name": "CAPTOPRIL 25 MG",
+      "description": "Captopril es un medicamento utilizado para tratar la hipertensión arterial y la insuficiencia cardíaca. Ayuda a relajar los vasos sanguíneos, lo que disminuye la presión arterial.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Captopril-25mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p023",
+      "name": "CAPTOPRIL 50 MG",
+      "description": "Captopril es un medicamento utilizado para tratar la hipertensión arterial y la insuficiencia cardíaca. Ayuda a relajar los vasos sanguíneos, lo que disminuye la presión arterial.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965979/Captopril_ifmrry.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p024",
+      "name": "Carbamazepina 200mg",
+      "description": "La carbamazepina es un antiepiléptico y un estabilizador del ánimo. Se utiliza para tratar trastornos convulsivos, como la epilepsia, y para prevenir episodios de manía o depresión en trastornos bipolares.",
+      "category": "Antiepilépticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965979/Carbamazepina_isq8qh.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p025",
+      "name": "CEFALEXINA CAP. 500MG",
+      "description": "La cefalexina es un antibiótico que se utiliza para tratar infecciones bacterianas, como infecciones del tracto urinario, neumonía y infecciones de la piel. Se administra por vía oral.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965974/Cefalexin_lul0gd.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p026",
+      "name": "CEFTRIAXONA SIN AGUA",
+      "description": "La ceftriaxona es un antibiótico para tratar infecciones bacterianas graves. Se administra por vía intravenosa por un profesional. No se diluye en agua, sino en otros líquidos para infusión.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965974/Ceftriazona_ihb13d.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p027",
+      "name": "CEFTRIAZONA CON AGUA",
+      "description": "La ceftriaxona es un antibiótico para tratar infecciones bacterianas graves como neumonía y meningitis. Se administra por vía intravenosa y es importante que sea administrada por un profesional.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Ceftriaxona-con-agua.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p028",
+      "name": "CIPROFLOXACINA TAB. 500MG",
+      "description": "La ciprofloxacina es un antibiótico que se utiliza para tratar infecciones bacterianas como la neumonía, infecciones del tracto urinario, prostatitis e infecciones de la piel. Se toma por vía oral.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Ciprofloxacina-500mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p029",
+      "name": "CLARITROMICINA 500 MG",
+      "description": "La claritromicina es un antibiótico macrólido que se utiliza para tratar infecciones bacterianas como la neumonía, la bronquitis e infecciones del tracto respiratorio superior. Se toma por vía oral.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Claritromicina-500mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p030",
+      "name": "CLOPIDOGREL 75 MG",
+      "description": "El clopidogrel es un medicamento antiplaquetario que se utiliza para prevenir la formación de coágulos de sangre en pacientes con enfermedades cardiovasculares. Se toma por vía oral.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965979/Clopidrogel_necqd7.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p031",
+      "name": "CLOTRIMAZOL CREMA",
+      "description": "El clotrimazol es un medicamento antifúngico que se utiliza para tratar infecciones fúngicas de la piel, como la tiña, el pie de atleta y la candidiasis. Se aplica tópicamente.",
+      "category": "Antifúngicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965977/Clotrimazol-al-1_iozjwa.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p032",
+      "name": "CLOTRIMAZOL SOLUCION",
+      "description": "Tratamiento antifúngico tópico utilizado para tratar infecciones por hongos en la piel. El clotrimazol actúa evitando el crecimiento de los hongos. Esta solución se puede aplicar en áreas afectadas.",
+      "category": "Antifúngicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965979/Clotrimazol-solucion_bc30js.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p033",
+      "name": "CLOXACILINA CAP. 500 MG",
+      "description": "Antibiótico del grupo de las penicilinas, utilizado para tratar infecciones causadas por bacterias sensibles a la cloxacilina, como infecciones de la piel, tejidos blandos, huesos y articulaciones.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Cloxacilina-500mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p034",
+      "name": "COMPLEJO B",
+      "description": "Un suplemento vitamínico que contiene vitaminas B1, B2, B3, B5, B6, B7, B9 y B12. Se utiliza para tratar o prevenir deficiencias de vitaminas B y mejorar la salud general del cuerpo.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965980/Complejo-B_qsyzss.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p035",
+      "name": "DICLOFENAC GEL",
+      "description": "Un gel tópico utilizado para reducir el dolor y la inflamación en las articulaciones y músculos. El diclofenaco es un antiinflamatorio no esteroideo.",
+      "category": "Analgésicos y Antiinflamatorios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750971005/Diclofenac-gel_hgaid0.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p036",
+      "name": "DICLOFENACO INY 75MG",
+      "description": "Una inyección utilizada para tratar el dolor moderado a severo. El diclofenaco es un antiinflamatorio no esteroideo que funciona bloqueando la producción de prostaglandinas.",
+      "category": "Analgésicos y Antiinflamatorios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965975/Diclofenaco_urxytj.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p037",
+      "name": "DICLOFENAC POSTASICO 100MG",
+      "description": "Un medicamento utilizado para tratar el dolor, la inflamación y la fiebre. El diclofenaco potásico es un antiinflamatorio no esteroideo.",
+      "category": "Analgésicos y Antiinflamatorios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965977/Diclofenac-potasico_xewbkm.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p038",
+      "name": "DICLOFENAC SODICO 100MG",
+      "description": "Un medicamento utilizado para tratar el dolor, la inflamación y la fiebre. El diclofenaco sódico es un antiinflamatorio no esteroideo.",
+      "category": "Analgésicos y Antiinflamatorios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965980/Diclofenac-sodico_yjevk5.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p039",
+      "name": "DOGOXINA TAB 0.25 MG",
+      "description": "Un medicamento utilizado para tratar la insuficiencia cardíaca y ciertos tipos de arritmias cardíacas. Ayuda a controlar la frecuencia cardíaca y mejorar la fuerza de contracción del corazón.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965980/Dogoxina_e5lvjv.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p040",
+      "name": "DOLOCOMSAAD",
+      "description": "Un medicamento analgésico que contiene paracetamol y tramadol. Se utiliza para tratar el dolor moderado a severo.",
+      "category": "Analgésicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965978/Dolocomsaad_zoa7jv.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p041",
+      "name": "DOLOCONSAAD 50 MG",
+      "description": "Un medicamento analgésico que contiene tramadol. Se utiliza para tratar el dolor moderado a severo.",
+      "category": "Analgésicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Doloconsaad-50mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p042",
+      "name": "DOXICICLINA CAPS.100 MG",
+      "description": "Un antibiótico utilizado para tratar una variedad de infecciones causadas por bacterias, como infecciones respiratorias, del tracto urinario, de la piel y otras.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965980/Doxiciclina_bi4l1p.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p043",
+      "name": "ENALAPRIL 10 MG",
+      "description": "El enalapril es un medicamento utilizado para tratar la hipertensión arterial y la insuficiencia cardíaca. Actúa relajando los vasos sanguíneos para que la sangre pueda fluir más fácilmente.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965975/Enalapril-maleato_lpdpjs.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p044",
+      "name": "ERITROMICINA SUSP 60ML",
+      "description": "La eritromicina es un antibiótico utilizado para tratar infecciones bacterianas. Esta suspensión se utiliza comúnmente en niños para tratar infecciones del tracto respiratorio y del oído medio.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750971488/Eritromicina-Estolato_1_vxmjxq.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p045",
+      "name": "FLUCONAZOL CAP.150 MG",
+      "description": "El fluconazol es un antifúngico utilizado para tratar infecciones por hongos como la candidiasis vaginal y oral. Esta presentación en cápsulas de 150 mg se toma por vía oral.",
+      "category": "Antifúngicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Fluconazol-150mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p047",
+      "name": "IBUPROFEN 600 MG",
+      "description": "El ibuprofeno es un antiinflamatorio no esteroideo utilizado para tratar el dolor y reducir la inflamación. Esta presentación de 600 mg se utiliza para tratar el dolor agudo y reducir la fiebre.",
+      "category": "Analgésicos y Antiinflamatorios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965975/Ibuprofeno_orwchl.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p048",
+      "name": "IBUPROFEN SUSP.",
+      "description": "Esta presentación de ibuprofeno en suspensión oral se utiliza comúnmente en niños para tratar el dolor y reducir la inflamación.",
+      "category": "Analgésicos y Antiinflamatorios",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965981/Ibuprofen-suspension_xz1uvd.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p049",
+      "name": "KETOCONAZOL CREMA",
+      "description": "El ketoconazol es un antifúngico que se utiliza para tratar infecciones por hongos en la piel. Se aplica directamente en la piel para tratar la tiña corporal, del pie e inguinal.",
+      "category": "Antifúngicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965975/Ketoconazol-al-2_maky0g.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p050",
+      "name": "KETOCONAZOLES 200MG",
+      "description": "El ketoconazol es un antifúngico. Esta presentación en tabletas de 200 mg se toma por vía oral para tratar infecciones sistémicas por hongos, como la candidiasis sistémica y la criptococosis.",
+      "category": "Antifúngicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965980/Ketoconazole_sfygnc.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p051",
+      "name": "LICOMICINA 500 CAP",
+      "description": "La lincomicina es un antibiótico utilizado para tratar infecciones bacterianas como la neumonía y la infección de la piel. Se toma por vía oral en cápsulas de 500 mg.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Lincomicina-500mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p052",
+      "name": "LORATADINA 10MG",
+      "description": "La loratadina es un antihistamínico utilizado para tratar síntomas de alergias como congestión nasal, estornudos y picazón en los ojos. Bloquea los efectos de la histamina en el cuerpo.",
+      "category": "Antialérgicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Loratadina-10mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p053",
+      "name": "LOSARTAN POTASICO 50MG",
+      "description": "El losartán potásico es un medicamento para tratar la hipertensión arterial y reducir el riesgo de accidente cerebrovascular. Funciona al relajar los vasos sanguíneos para mejorar el flujo sanguíneo.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Losartan-Potasico-50mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p054",
+      "name": "METFORMINA 500MG",
+      "description": "La metformina es un medicamento para tratar la diabetes tipo 2, ayudando a controlar los niveles de azúcar en la sangre. Disminuye la producción de glucosa y aumenta la sensibilidad a la insulina.",
+      "category": "Antidiabéticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965982/Metformina-500_z3nplr.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p055",
+      "name": "METFORMINA 850MG",
+      "description": "La metformina de 850 mg es una versión de mayor dosis del medicamento para tratar la diabetes tipo 2. Disminuye la producción de glucosa en el hígado y aumenta la sensibilidad del cuerpo a la insulina.",
+      "category": "Antidiabéticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Metformina-850_zutqtx.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p056",
+      "name": "METRONIDAZOL TAB. 500MG",
+      "description": "El metronidazol es un antibiótico utilizado para tratar infecciones bacterianas, como la vaginosis bacteriana, y parasitarias, como la giardiasis y la tricomoniasis.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Metronidazol-500mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p057",
+      "name": "MULTIVITAMINICO",
+      "description": "Un multivitamínico es un suplemento dietético que contiene una combinación de vitaminas y minerales esenciales. Ayuda a prevenir deficiencias nutricionales y es beneficioso para dietas deficientes.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965979/Multivitaminico-Frasco_jsztcq.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p058",
+      "name": "OMEGA 3 C/100 (V.07/25)",
+      "description": "El omega 3 es un ácido graso esencial. Este suplemento dietético de omega 3 se toma para ayudar a prevenir enfermedades cardíacas y reducir la inflamación en el cuerpo.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965982/Omega-3_tscz4q.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p059",
+      "name": "OMEGA",
+      "description": "El omega es un suplemento dietético que contiene ácidos grasos esenciales omega 3, 6 y 9. Ayuda a mantener la salud cardiovascular, mejorar la memoria y reducir la inflamación.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Omega.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p060",
+      "name": "OMEPRAZOL 40MG",
+      "description": "El omeprazol es un medicamento utilizado para tratar la acidez estomacal, el reflujo gastroesofágico y las úlceras gástricas. Funciona al reducir la cantidad de ácido producido en el estómago.",
+      "category": "Salud Gástrica",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Omeprazol-40mg.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p061",
+      "name": "OMEPRAZOL TAB 20MG",
+      "description": "El omeprazol de 20 mg es una versión de menor dosis del medicamento utilizado para tratar la acidez estomacal, el reflujo gastroesofágico y las úlceras gástricas.",
+      "category": "Salud Gástrica",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965979/Omeprazol_u8jkwk.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p062",
+      "name": "PENICILINA 6.3.3",
+      "description": "La penicilina 6.3.3 es un tratamiento para una infección bacteriana que puede ayudarte a combatir la infección y a sentirte mejor rápidamente. Es importante seguir las indicaciones de tu médico.",
+      "category": "Antibióticos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965982/Penicilina-benzatinica_vc4rmh.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p063",
+      "name": "ROSUVASTATINA 10MG",
+      "description": "Si tienes problemas de colesterol, la rosuvastatina 10mg puede ser una opción efectiva para ayudarte a mantener tus niveles de colesterol bajo control y mejorar tu salud cardiovascular.",
+      "category": "Cardiovascular",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965978/Rosuvastatina-10-mg_s36eex.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p064",
+      "name": "SATROPLUS (325mg+50mg)",
+      "description": "Si sufres de dolor o inflamación, el Satroplus (325mg+50mg) puede ayudarte a aliviar los síntomas. Combina ácido acetilsalicílico con paracetamol para tratar dolores y fiebre.",
+      "category": "Analgésicos",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965976/Satroplus.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p065",
+      "name": "SILDENAFIL TAB.",
+      "description": "Si tienes problemas de disfunción eréctil, el sildenafil puede ayudarte a mejorar la función sexual. Trabaja aumentando el flujo sanguíneo al pene para alcanzar y mantener una erección.",
+      "category": "Salud Sexual",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750972514/Vivo_Sidenafil_b6bvts.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p066",
+      "name": "SULFATO FERROSO",
+      "description": "El sulfato ferroso es un suplemento de hierro que puede ser útil para tratar la anemia ferropénica y mejorar los niveles de hierro en el cuerpo. Debe tomarse según indicación médica.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750965981/Sulfato-Ferroso_w1odn3.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p067",
+      "name": "VITAMINA A",
+      "description": "La vitamina A es esencial para la salud ocular y el sistema inmunológico. Un suplemento de vitamina A puede ser útil para mejorar tu salud en general si tienes deficiencia.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750972730/Vitamina-A_ulc9t9.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p068",
+      "name": "VITAMINA C TAB",
+      "description": "La vitamina C es un antioxidante esencial que puede ayudar a mantener un sistema inmunológico saludable. Los suplementos de vitamina C son útiles para personas con deficiencias.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750972728/Vitamina-C_y7vxyl.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p069",
+      "name": "VITAMINA E 1000 MG",
+      "description": "La vitamina E es un antioxidante importante que ayuda a proteger las células del cuerpo de los radicales libres. Un suplemento de 1000mg puede ser útil para personas con deficiencias.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750972726/Vitamina-E_enpf6f.jpg",
+      "inStock": true
+    },
+    {
+      "id": "p070",
+      "name": "VITAMINA E 400 MG",
+      "description": "La vitamina E en dosis de 400mg puede ser útil para mejorar la salud de la piel, el cabello y las uñas, así como para proteger las células del cuerpo de los radicales libres.",
+      "category": "Suplementos y Vitaminas",
+      "imageUrl": "https://res.cloudinary.com/dhyeoqnil/image/upload/v1750972724/Vitamina-E-400_weagit.png",
+      "inStock": true
+    }
+  ]
+}
